@@ -10,7 +10,7 @@ export const styles = StyleSheet.create({
      alignItems:'center',
      marginBottom:10
   },
-  name: {
+  name:{
      color:'#FFF',
      fontSize:16,
      flex:1,
