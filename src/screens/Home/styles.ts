@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
     backgroundColor: '#131016',
     padding: 24
   },
-  
+
   eventName: {
     color: '#FDFCFE',
     fontSize: 24,
@@ -20,7 +20,7 @@ export const styles = StyleSheet.create({
   },
 
   input: {
-    flex:1,
+    flex: 1,
     height: 56,
     backgroundColor: '#1F1E25',
     borderRadius: 5,
@@ -39,21 +39,21 @@ export const styles = StyleSheet.create({
     width: 56,
     height: 56,
     borderRadius: 5,
-    backgroundColor:'#31CF67',
-    alignItems:'center',
-    justifyContent:'center',
+    backgroundColor: '#31CF67',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 
-  form:{
-    width:'100%',
-    flexDirection:'row',
-    marginTop:36,
-    marginBottom:42
+  form: {
+    width: '100%',
+    flexDirection: 'row',
+    marginTop: 36,
+    marginBottom: 42
   },
   listEmplyText: {
-  color: '#FFF',
-  fontSize:14,
-  textAlign:'center'
+    color: '#FFF',
+    fontSize: 14,
+    textAlign: 'center'
   }
 
 }); 
