@@ -21,12 +21,14 @@ export function Home() {
   }
 
   function handleParticipantRemove(name: string) {
+
+
     Alert.alert("Remover", `Remover o participante ${name}?`, [
       {
         text: 'Sim',
         onPress: () => {
           setParticipants(prevState => prevState.filter(participant => participant !== name));
-          Alert.alert("Deletado!");
+
         }
       },
       {
@@ -52,7 +54,7 @@ export function Home() {
           style={styles.input}
           placeholder="Nome do participante"
           placeholderTextColor="#6B6B6B"
-          onChangeText={text => setParticipantName(text)}
+          onChangeText={setParticipantName}
           value={participantName}
         />
         <TouchableOpacity style={styles.button} onPress={handleParticipantAdd}>
